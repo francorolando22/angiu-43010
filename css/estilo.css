@@ -273,7 +273,7 @@ textarea {
     cursor: pointer;
 }
 
-/*HOJA DE ESTILO PAGINA RUTA*/
+/*HOJA DE ESTILO PAGINA TURISMO*/
 .ruta {
     margin-top: 50px;
     color: #ffffff;
@@ -297,3 +297,88 @@ textarea {
     text-align: center;
 }
 
+/*HOJA DE ESTILO PAGINA GALERIA*/
+#galeria {
+    margin-top: 30px;
+}
+
+#galeria {
+    background-color: rgba(49, 56, 74, 0.4666666667);
+    color: #ffffff;
+    margin-top: 100px;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 50px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.galeria img {
+    width: 250px;
+    height: 150px;
+    border: 2px double rgb(255, 255, 255);
+}
+
+.galeria img:hover {
+    opacity: 1;
+    border: solid rgb(0, 0, 0);
+}
+
+/*HOJA DE ESTILO OPINIONES*/
+.opiniones h2 {
+    color: #ffffff;
+    margin: 0;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.caja-contedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.caja {
+    background-color: rgba(49, 56, 74, 0.4666666667);
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+    border: 1rem solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    flex: 1;
+}
+
+.stars p {
+    font-size: 1.5rem;
+}
+
+.user img {
+    border-radius: 50%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    height: 8rem;
+    width: 8rem;
+    margin-top: 2rem;
+}
+
+.user h3 {
+    color: white;
+    font-size: 2rem;
+}
+
+.comentario p {
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
